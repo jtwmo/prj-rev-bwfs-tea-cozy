@@ -1,0 +1,169 @@
+
+
+body {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+
+  margin: 0;
+  padding: 0;
+}
+
+
+/*HEADER SECTION*/
+/**************************************/
+
+header {
+  background-color: black;
+  position: fixed;
+  z-index: 1;
+  display: flex;
+
+  width: 100%;
+
+  flex-grow: 3;
+  justify-content: space-between;
+  border-bottom: 1px solid seashell;
+  margin: 0;
+  padding: 0;
+  top: 0;
+}
+
+header img {
+  margin: 15px;
+  max-height: 50px;
+}
+
+nav {
+  display: flex;
+  text-decoration: underline;
+  justify-content: space-around;
+  flex-shrink: 0;
+  margin: 5px;
+}
+
+nav span {
+  margin: 20px;
+}
+
+a {
+  color: white;
+}
+
+/*MAIN CONTENT*/
+/**************************************/
+
+.content {
+ display: flex;
+ flex-direction: column;
+ position: relative;
+ top: 69px;
+ justify-content: center;
+ align-items: center;
+}
+
+
+/*MISSION SECTION*/
+/****************************/
+.mission {
+  background-image: url("../images/img-mission-background.jpg");
+  height: 700px;
+  width: 1200px;
+  display: flex;
+}
+
+.missiontext {
+  background-color: black;
+  text-align: center;
+  margin: auto;
+  max-height: 130px;
+  width: 1200px;
+}
+
+
+/*TEA OF THE MONTH SECTION*/
+/****************************/
+
+.teaofthemonth {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 1000px;
+  margin: 0px 20px 60px 20px;
+}
+
+.teaofthemonthtext {
+  text-align: center;
+  margin-top: 69px;
+}
+
+.teaofthemonthteas {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+}
+
+.tea {
+  margin: 10px;
+}
+
+.teaofthemonthteas h4 {
+  text-align: center;
+  margin: 10px 0;
+}
+
+
+/*LOCATIONS SECTION*/
+/****************************/
+
+.locations {
+  background-image: url("../images/img-locations-background.jpg");
+  display: flex;
+  flex-direction: column;
+  height: 550px;
+  width: 1200px;
+
+
+}
+.locationstext {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.locationstext h2 {
+  margin-bottom: 15px;
+}
+.locationsaddresses {
+  display: flex;
+  justify-content: center;
+
+}
+.loc {
+  background-color: black;
+  opacity: 1;
+  text-align: center;
+  margin: 0px 20px 20px 20px;
+  width: 300px;
+}
+
+.loc span {
+  display: block;
+  margin: 35px 10px;
+}
+
+
+/*FOOTER SECTION*/
+/****************************/
+
+footer {
+  text-align: center;
+  height: 200px;
+  width: 100%;
+}
+.copyright {
+  text-align: left;
+  margin-left: 20px;
+}
